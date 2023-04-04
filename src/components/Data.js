@@ -9,8 +9,8 @@ function SenddataComp() {
     if (city === "") {
       alert("You are not choosing any city!")
     } else {
-      //axios.post("http://localhost:5000/" + city);
-      alert(city)
+      axios.post("https://kasherserver.up.railway.app/" + city);
+      alert("Check telgram for the data")
     }
   };
 
@@ -31,6 +31,7 @@ function SenddataComp() {
             <option>haifa</option>
             <option>petah-tikva</option>
             <option>beer-sheva</option>
+            <option>kiryat-gat</option>
           </select>
         </div>
         <div>

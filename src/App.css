@@ -28,10 +28,15 @@ option{
 }
 
 .ben{
-  margin-left: 210px;
+  margin-left: 450px;
 }
 
 .homepage{
-  margin: auto;
+  margin-top: 60px;
   border: 2px solid;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }

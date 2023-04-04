@@ -5,11 +5,9 @@ import AddnumComp from './AddNum';
 const HomeComp=()=>{
     return(
         <div>
-            <Link to="/" className='ben'>Home</Link>
             <Link to="/getdata" className='ben'>Data</Link>
             <Link to="addnum" className='ben'>Add num</Link>
             <Routes>
-                <Route path='/' element={<HomeComp/>}></Route>
                 <Route path='/getdata' element={<SenddataComp/>}></Route>
                 <Route path='/addnum' element={<AddnumComp/>}></Route>
             </Routes>
@@ -18,9 +16,7 @@ const HomeComp=()=>{
                 <p>
                     שלום למבקשי המידע, על מנת לראות את המידע אנא בבקשה הצטרפו לקבוצת הטלגרם שלנו שם ההדגמה תתבצע
                 </p>
-                <p>
-                    https://t.me/+hlJL5bUQkd44Yjg0 
-                </p>
+                <p><a href='https://t.me/+hlJL5bUQkd44Yjg0' target='_blank'>Join Telegram Channel</a></p>
             </div>
         </div>
     )
